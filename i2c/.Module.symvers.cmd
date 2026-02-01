@@ -1,1 +1,0 @@
-savedcmd_/home/pi/device_drivers/i2c/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/pi/device_drivers/i2c/Module.symvers -T /home/pi/device_drivers/i2c/modules.order -i Module.symvers -e 

@@ -1,1 +1,0 @@
-savedcmd_/home/pi/device_drivers/device_tree/device_tree.mod := printf '%s\n'   device_tree.o | awk '!x[$$0]++ { print("/home/pi/device_drivers/device_tree/"$$0) }' > /home/pi/device_drivers/device_tree/device_tree.mod

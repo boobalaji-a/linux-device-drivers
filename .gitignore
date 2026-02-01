@@ -1,0 +1,15 @@
+# Kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+
+# Kernel build generated files
+Module.symvers
+modules.order
+
+# Temporary files
+*~
+*.swp
+*.tmp

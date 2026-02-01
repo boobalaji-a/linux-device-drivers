@@ -1,0 +1,20 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+		compatible = "brcm,bcm2711";
+        fragment@0 {
+                target = <&i2c1>;
+                __overlay__ {
+					#address-cells = <1>;
+					#size-cells = <0>;
+					
+                    lm75: lm75@48 {
+                                compatible = "brightlight,my_lm75";
+                                reg = <0x48>;
+                                status = "okay";
+                        };
+                };
+        };
+};
+

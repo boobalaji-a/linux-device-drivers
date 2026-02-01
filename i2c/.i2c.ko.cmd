@@ -1,0 +1,1 @@
+savedcmd_/home/pi/device_drivers/i2c/i2c.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/device_drivers/i2c/i2c.ko /home/pi/device_drivers/i2c/i2c.o /home/pi/device_drivers/i2c/i2c.mod.o /home/pi/device_drivers/i2c/.module-common.o
